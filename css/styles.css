@@ -1,1 +1,69 @@
 /* YOUR STYLES */
+
+/* FONTS */
+
+body{
+    font-family: Avenir Next;
+    
+}
+
+.cd-header{
+    font-family: 'Sanchez', serif;
+}
+
+
+
+
+/* HEADER */
+
+.cd-header {
+    
+    background: #a10022;
+}
+
+/* CONTENT CONTAINERS */
+
+.cd-gallery li.mix{
+    
+    background: white;
+    padding: 1em;
+}
+
+
+body {
+    
+background: steelgrey;
+}
+
+/* SEARCH CONTAINER */
+
+.cd-tab-filter-wrapper {
+    
+    background: white;
+}
+
+
+/* SELECTED */
+.cd-tab-filter a.selected{
+    
+    color: black;
+    box-shadow: inset 0 -2px 0 black;
+}
+
+/* GRID VIEW */
+
+.grid li.mix{
+    
+    background: coral;
+
+}
+
+.list li.mix{
+    background: grey;
+    width: 100%;
+    
+}
+
+.list li.mix p{
+    display: none;
+}
