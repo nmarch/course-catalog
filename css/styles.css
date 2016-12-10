@@ -1,24 +1,53 @@
 /* YOUR STYLES */
 
 body {
-    background: black;
+    background: #a10022;
 }
 
 h1 {
     color: #a10022;
+    font-family: "myriad pro";
+    text-align: right;
+    text-transform: uppercase;
+    padding-bottom: .9em;
+    font-weight: bold;
 }
 
+h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1em;
+    letter-spacing: .18em;
+    font-size: 4em; 
+    font-weight: bold;
+    
+}
+
+p {
+    line-height: 1.7em;
+    font-size: .6em;
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 1.3em;
+    
+}
 
 /*Header*/
 .cd-header {
-    background: #a10022;
+    background: #6d6e71;
+   
 }
 
 /*Content Containers*/
 .cd-gallery li {
-    border-radius: 5px;
+    border-radius: 10px;
     background: white;
     padding: 1em;
+    
+   
 }
 
 /*Grid View*/
@@ -35,3 +64,6 @@ h1 {
     width: 100%;
     
 }
+
+
+
