@@ -61,9 +61,24 @@ p {
 
 .list li.mix {
     background: white;
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+
     
+       
 }
 
+.list li.mix p {
+    visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
 
+.list li.mix:hover p {
+    
+visibility: visible;
+  opacity: 1;
+  
+}
 
