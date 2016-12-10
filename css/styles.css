@@ -1,1 +1,45 @@
-/* YOUR STYLES */
+/* MY STYLES */
+
+
+body {
+    background: #a10022;
+}
+
+h1 {
+    color: #a10022;
+    font-family: "myriad pro";
+    text-align: right;
+    text-transform: capitalize;
+}
+
+
+/*Header*/
+.cd-header {
+    background: black;
+}
+
+/*Content Containers*/
+.cd-gallery li {
+    border-radius: 5px;
+    background: white;
+    padding-top: 2em;
+    margin: .5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 4em;
+}
+
+/*Grid View*/
+
+.grid li.mix {
+    background: white;
+}
+
+
+/*List View*/
+
+.list li.mix {
+    background: white;
+    width: 100%;
+    
+}
